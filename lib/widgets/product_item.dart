@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_login/widgets/product_detail_screen.dart';
 
+
+
+
 class ProductItem extends StatelessWidget {
   final String id;
   final String title;
@@ -8,8 +11,6 @@ class ProductItem extends StatelessWidget {
 
   //positional argument
   ProductItem(this.id, this.title, this.imageUrl);
-
-
 
   @override
   Widget build(BuildContext context) {
